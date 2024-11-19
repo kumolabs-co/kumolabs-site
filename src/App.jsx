@@ -1,4 +1,4 @@
-import { IconBrandX, IconBrandDiscord, IconBrandGithub } from "@tabler/icons-react";
+import { IconBrandX, IconBrandBluesky, IconBrandDiscord, IconBrandGithub } from "@tabler/icons-react";
 
 function App() {
   return (
@@ -12,6 +12,14 @@ function App() {
           className="icon-glow"
         >
           <IconBrandX size={48} />
+        </a>
+        <a
+          href="https://bsky.app/profile/kumolabs.co"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="icon-glow"
+        >
+          <IconBrandBluesky size={48} />
         </a>
         <a
           href="https://discord.gg/wWdYejq25K"
